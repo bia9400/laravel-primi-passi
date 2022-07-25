@@ -7,6 +7,8 @@
     <title>HOME</title>
 </head>
 <body>
-    Home
+{{$data["text"]}} il mio colore preferito è il {{$data["color"]}}
+
+
 </body>
 </html>

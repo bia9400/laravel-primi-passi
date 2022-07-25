@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view("home");
+    $array=[
+        "text"=>"Ciao sono Peppe",
+        "color"=>"rosso"
+    ];
+    return view("home",[
+        "data"=>$array
+    ]);
 });
