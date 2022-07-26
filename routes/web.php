@@ -22,3 +22,7 @@ Route::get('/', function () {
         "data"=>$array
     ]);
 });
+
+Route::get("/about-us", function () {
+    return "<h1>Pagina chi siamo</h1>";
+})->name("about_us");

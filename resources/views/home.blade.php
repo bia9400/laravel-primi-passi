@@ -8,7 +8,7 @@
 </head>
 <body>
 {{$data["text"]}} il mio colore preferito è il {{$data["color"]}}
-
+<a href="{{ route("about_us") }}">Chi Siamo</a>
 
 </body>
 </html>
